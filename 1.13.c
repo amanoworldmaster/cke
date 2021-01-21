@@ -10,8 +10,8 @@ int main(){
   printf("Enter name : ");fflush(stdin);gets(name);
   printf("Enter gender : ");fflush(stdin);
   gender=getchar();
-  printf("Enter email : ");fflush(stdin);gets(email);
-  printf("Enter mobile no. : ");fflush(stdin);gets(mobile);
+  printf("Enter email : ");scanf("%s",&email);
+  printf("Enter mobile no. : ");scanf("%s",& mobile);
   printf("Enter Course : ");fflush(stdin);gets(course);fflush(stdin);
   printf("%d %s %c %s %s %s",rollno,name,gender,email,mobile,course);
 }

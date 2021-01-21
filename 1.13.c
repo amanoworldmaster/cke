@@ -11,7 +11,7 @@ int main(){
   printf("Enter gender : ");fflush(stdin);
   gender=getchar();
   printf("Enter email : ");scanf("%s",&email);
-  printf("Enter mobile no. : ");scanf("%s",& mobile);
+  printf("Enter mobile no. : ");scanf("%s",&mobile);
   printf("Enter Course : ");fflush(stdin);gets(course);fflush(stdin);
   printf("%d %s %c %s %s %s",rollno,name,gender,email,mobile,course);
 }
